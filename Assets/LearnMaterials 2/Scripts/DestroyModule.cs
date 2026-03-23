@@ -39,6 +39,6 @@ public class DestroyModule : MonoBehaviour
             yield return new WaitForSeconds(destroyDelay);
         }
 
-        Destroy(this);
+        Destroy(gameObject);
     }
 }
